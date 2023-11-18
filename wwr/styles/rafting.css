@@ -1,0 +1,33 @@
+@import url('https://coolors.co/778da9-e0e1dd-ba181b-5e503f');
+
+:root {
+    --main-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'YourSelectedFontFamily', sans-serif;
+    color: var(--text-color);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, p {
+    color: var(--main-color);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
