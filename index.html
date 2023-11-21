@@ -52,3 +52,20 @@
 <aside class="box"></aside>
 
 <ul class="box"></ul>
+
+header, .grid, footer {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
